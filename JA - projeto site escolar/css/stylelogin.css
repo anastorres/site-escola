@@ -1,0 +1,67 @@
+:root {
+    --primary-color: rgb(46, 177, 46);
+    --text-color: rgba(255, 235, 235, 0.767);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+    
+}
+body{
+    background-color:rgb(63, 61, 61);
+    margin: 0;
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+
+.login-form{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 700px;
+    padding: 50px;
+    width: 500px;
+}
+h3{
+    text-align:center;
+    color: white;
+    margin: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-group{
+    margin-bottom: 15px;
+    width: 600px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    color:var(--primary-color);
+}
+input[type="text"],
+input[type="password"] {
+    width: 400px; 
+    padding: 10px; 
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid;
+}
+button{
+    width: 100%;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: azure;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+}
